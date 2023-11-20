@@ -3,7 +3,6 @@ export default {
     data() {
         return {
             isSidebarOpen: false,
-            neonEffect: false,
         };
     },
     methods: {
@@ -16,19 +15,14 @@ export default {
                 behavior: 'smooth'
             });
         },
-    },
-    mounted() {
-        setInterval(() => {
-            this.neonEffect = !this.neonEffect;
-        }, 3000);
-    },
+    }
 };
 </script>
 
 
 
 <template>
-    <button class="toggle_sidebar_button btn_menu pulp" @click="toggleSidebar" :class="{ 'neon-effect': neonEffect }">menu
+    <button class="toggle_sidebar_button btn_menu pulp" @click="toggleSidebar">menu
     </button>
 
     <a href="#" class="scroll-to-top upper_arrow" @click="scrollToTop">
@@ -66,10 +60,10 @@ export default {
     font-family: monospace;
 }
 
-li a:hover{
+li a:hover {
     color: rgba(218, 218, 218, 0.995);
     border-bottom: 2px solid #ffbf0065;
-    
+
 }
 
 .sidebar {
@@ -115,7 +109,7 @@ li a:hover{
     z-index: 2;
     display: flex;
     align-items: center;
-    background-color: #27272a;
+    background-color: #27272a65;
     color: #ffbf00;
     border: 1px solid #ffbf00;
     border-radius: 10px;
