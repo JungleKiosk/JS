@@ -1,5 +1,7 @@
 <script>
 import DocVariables from "../components/documentation/DocVariables.vue";
+import DocTypeData from "../components/documentation/DocTypeData.vue";
+
 
 
 
@@ -8,7 +10,8 @@ export default {
 
     },
     components: {
-    DocVariables
+    DocVariables,
+    DocTypeData
 }
 }
 
@@ -27,6 +30,7 @@ export default {
 
             <section>
                 <DocVariables></DocVariables>
+                <DocTypeData></DocTypeData>
             </section>
 
         </main>
