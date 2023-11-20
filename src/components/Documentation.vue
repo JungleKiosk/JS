@@ -4,6 +4,7 @@ import DocVariables from "../components/documentation/DocVariables.vue";
 import DocTypeData from "../components/documentation/DocTypeData.vue";
 import DocCasting from "../components/documentation/DocCasting.vue";
 import DocOutput from "../components/documentation/DocOutput.vue";
+import DocNumbers from "../components/documentation/DocNumbers.vue";
 
 
 
@@ -17,7 +18,8 @@ export default {
         DocVariables,
         DocTypeData,
         DocCasting,
-        DocOutput
+        DocOutput,
+        DocNumbers
     }
 }
 
@@ -40,6 +42,7 @@ export default {
                 <DocTypeData></DocTypeData>
                 <DocCasting></DocCasting>
                 <DocOutput></DocOutput>
+                <DocNumbers></DocNumbers>
             </section>
 
         </main>
