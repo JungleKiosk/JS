@@ -47,6 +47,8 @@ export default {
             <hr>
             <li><a class="ancor_menu" href="#casting">Casting</a></li>
             <hr>
+            <li><a class="ancor_menu" href="#output">Output</a></li>
+            <hr>
         </ul>
 
     </nav>
