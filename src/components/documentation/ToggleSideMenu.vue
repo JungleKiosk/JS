@@ -49,6 +49,14 @@ export default {
             <hr>
             <li><a class="ancor_menu" href="#output">Output</a></li>
             <hr>
+            <li><a class="ancor_menu" href="#numbers">Numbers</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#math">Math</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#boolean">Boolean</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#string">String</a></li>
+            <hr>
         </ul>
 
     </nav>

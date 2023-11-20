@@ -5,9 +5,9 @@ import DocTypeData from "../components/documentation/DocTypeData.vue";
 import DocCasting from "../components/documentation/DocCasting.vue";
 import DocOutput from "../components/documentation/DocOutput.vue";
 import DocNumbers from "../components/documentation/DocNumbers.vue";
-
-
-
+import DocMath from "../components/documentation/DocMath.vue";
+import DocBoolean from "../components/documentation/DocBoolean.vue";
+import DocString from "../components/documentation/DocString.vue";
 
 export default {
     data() {
@@ -19,7 +19,10 @@ export default {
         DocTypeData,
         DocCasting,
         DocOutput,
-        DocNumbers
+        DocNumbers,
+        DocMath,
+        DocBoolean,
+        DocString
     }
 }
 
@@ -43,6 +46,9 @@ export default {
                 <DocCasting></DocCasting>
                 <DocOutput></DocOutput>
                 <DocNumbers></DocNumbers>
+                <DocMath></DocMath>
+                <DocBoolean></DocBoolean>
+                <DocString></DocString>
             </section>
 
         </main>
