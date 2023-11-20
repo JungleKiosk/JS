@@ -2,6 +2,7 @@
 import DocVariables from "../components/documentation/DocVariables.vue";
 import DocTypeData from "../components/documentation/DocTypeData.vue";
 import DocCasting from "../components/documentation/DocCasting.vue";
+import ToggleSideMenu from "../components/documentation/ToggleSideMenu.vue";
 
 
 
@@ -11,10 +12,11 @@ export default {
 
     },
     components: {
-    DocVariables,
-    DocTypeData,
-    DocCasting
-}
+        DocVariables,
+        DocTypeData,
+        DocCasting,
+        ToggleSideMenu
+    }
 }
 
 
@@ -34,13 +36,13 @@ export default {
                 <DocVariables></DocVariables>
                 <DocTypeData></DocTypeData>
                 <DocCasting></DocCasting>
+                <ToggleSideMenu></ToggleSideMenu>
             </section>
 
         </main>
     </div>
 </template>
   
-<style>
-</style>
+<style></style>
   
   
