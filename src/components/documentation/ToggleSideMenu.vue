@@ -22,6 +22,7 @@ export default {
 
 
 <template>
+
     <button class="toggle_sidebar_button btn_menu pulp" @click="toggleSidebar">menu
     </button>
 
@@ -31,7 +32,7 @@ export default {
 
     <nav class="sidebar" :class="{ 'sidebar-open': isSidebarOpen }">
 
-        <div class="row align-items-center ">
+        <div class="row align-items-center sticky-top">
             <div class="col-6 col-lg-8">
                 <h1 class="p-3">menu</h1>
             </div>
@@ -63,12 +64,57 @@ export default {
             <hr>
             <li><a class="ancor_menu" href="#set">Set</a></li>
             <hr>
+            <li><a class="ancor_menu" href="#variabili">Variabili</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#tipididati">Tipi di dati</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#casting">Casting</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#output">Output</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#numbers">Numbers</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#math">Math</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#boolean">Boolean</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#string">String</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#array">Array</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#objects">Objects</a></li>
+            <hr>
+            <li><a class="ancor_menu" href="#set">Set</a></li>
+            <hr>
         </ul>
 
     </nav>
 </template>
 
 <style scoped>
+
+nav::-webkit-scrollbar {
+    width: 6px;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background-color: #020215ca;
+    height: 123px;
+    border-radius: 50px;
+    border: 1px solid #286090ca;
+}
+
+nav::-webkit-scrollbar-thumb:hover {
+    background-color: #ffbf0065;
+    border: 1px solid #ffbf0065;
+}
+
+/* nav::-webkit-scrollbar-track {
+    border-left: 1px solid #ffbf0065;
+}
+ */
+
+
 .sidebar,
 .sidebar ul,
 .sidebar a {
@@ -90,6 +136,7 @@ li a:hover {
     bottom: 0;
     left: -100%;
     overflow-y: auto;
+    overflow-x: hidden;
     transition: left 0.3s ease;
     z-index: 1000;
     /* Valore più alto di quello delle card */
