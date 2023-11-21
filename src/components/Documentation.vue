@@ -8,7 +8,8 @@ import DocNumbers from "../components/documentation/DocNumbers.vue";
 import DocMath from "../components/documentation/DocMath.vue";
 import DocBoolean from "../components/documentation/DocBoolean.vue";
 import DocString from "../components/documentation/DocString.vue";
-import DocArray from "./documentation/DocArray.vue";
+import DocArray from "../components/documentation/DocArray.vue";
+import DocObjects from "../components/documentation/DocObjects.vue";
 
 export default {
     data() {
@@ -24,7 +25,8 @@ export default {
     DocMath,
     DocBoolean,
     DocString,
-    DocArray
+    DocArray,
+    DocObjects
 }
 }
 
@@ -52,6 +54,7 @@ export default {
                 <DocBoolean></DocBoolean>
                 <DocString></DocString>
                 <DocArray></DocArray>
+                <DocObjects></DocObjects>
             </section>
 
         </main>

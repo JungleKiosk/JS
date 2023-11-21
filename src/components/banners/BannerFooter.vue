@@ -7,6 +7,7 @@
 <template>
     <footer id="docum" class="rounded-4" >
         <div class="container p-5">
+            
             <div class="row rounded-4 justify-content-center" style="background-color: rgba(119, 26, 102, 0.292);">
                 <h4 style="color:rgb(255, 191, 0)" class=" text-center p-4 mb-3">Prova a svolgere degli
                     esercizi di logica JavaScript
@@ -16,9 +17,8 @@
                     </button>
 
                 </h4>
-
-
             </div>
+
             <div class="row mt-5 justify-content-center">
                 <div class="col-12 col-lg-4 mt-5">
                     <div class>

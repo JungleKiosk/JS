@@ -182,6 +182,27 @@ fruits = ["pear", "kiwi"]; // Errore: non consentito
                         tue competenze di programmazione.
                     </p>
 
+                    <div class="card border-1 border-warning m-5 ">
+                        <h2 class="text-warning text-center p-4 mb-3">🚀 Fai
+                            pratica
+                            con
+                            <button class="rounded-5 sty_bt"><a href="https://www.w3schools.com/js/js_arrays.asp"
+                                    target="_blank">W3S</a></button>
+
+                        </h2>
+                    </div>
+
+                    <div class="row rounded-4 justify-content-center" style="background-color: rgba(119, 26, 102, 0.292);">
+                        <h4 style="color:rgb(255, 191, 0)" class=" text-center p-4 mb-3">Prova a svolgere degli
+                            esercizi di logica JavaScript
+                            <button class="rounded-5 sty_bt">
+                                <a href="https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_arrays1"
+                                    target="_blank">W3S</a>
+                            </button>
+
+                        </h4>
+                    </div>
+
                 </div>
             </div>
         </div>
