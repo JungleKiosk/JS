@@ -61,6 +61,8 @@ export default {
             <hr>
             <li><a class="ancor_menu" href="#objects">Objects</a></li>
             <hr>
+            <li><a class="ancor_menu" href="#set">Set</a></li>
+            <hr>
         </ul>
 
     </nav>

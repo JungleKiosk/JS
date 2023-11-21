@@ -10,6 +10,8 @@ import DocBoolean from "../components/documentation/DocBoolean.vue";
 import DocString from "../components/documentation/DocString.vue";
 import DocArray from "../components/documentation/DocArray.vue";
 import DocObjects from "../components/documentation/DocObjects.vue";
+import DocSet from "../components/documentation/DocSet.vue";
+
 
 export default {
     data() {
@@ -26,7 +28,8 @@ export default {
     DocBoolean,
     DocString,
     DocArray,
-    DocObjects
+    DocObjects,
+    DocSet
 }
 }
 
@@ -55,6 +58,7 @@ export default {
                 <DocString></DocString>
                 <DocArray></DocArray>
                 <DocObjects></DocObjects>
+                <DocSet></DocSet>
             </section>
 
         </main>
