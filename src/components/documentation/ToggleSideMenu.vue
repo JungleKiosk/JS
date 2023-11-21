@@ -57,6 +57,8 @@ export default {
             <hr>
             <li><a class="ancor_menu" href="#string">String</a></li>
             <hr>
+            <li><a class="ancor_menu" href="#array">Array</a></li>
+            <hr>
         </ul>
 
     </nav>

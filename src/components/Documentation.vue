@@ -8,22 +8,24 @@ import DocNumbers from "../components/documentation/DocNumbers.vue";
 import DocMath from "../components/documentation/DocMath.vue";
 import DocBoolean from "../components/documentation/DocBoolean.vue";
 import DocString from "../components/documentation/DocString.vue";
+import DocArray from "./documentation/DocArray.vue";
 
 export default {
     data() {
 
     },
     components: {
-        ToggleSideMenu,
-        DocVariables,
-        DocTypeData,
-        DocCasting,
-        DocOutput,
-        DocNumbers,
-        DocMath,
-        DocBoolean,
-        DocString
-    }
+    ToggleSideMenu,
+    DocVariables,
+    DocTypeData,
+    DocCasting,
+    DocOutput,
+    DocNumbers,
+    DocMath,
+    DocBoolean,
+    DocString,
+    DocArray
+}
 }
 
 
@@ -49,6 +51,7 @@ export default {
                 <DocMath></DocMath>
                 <DocBoolean></DocBoolean>
                 <DocString></DocString>
+                <DocArray></DocArray>
             </section>
 
         </main>
